@@ -1,7 +1,25 @@
-using Bool_Work;
+int[] weather;
+weather = new int[] {80, -23, 45, 67, 90, 76, 89};
 
-var builder = Host.CreateApplicationBuilder(args);
-builder.Services.AddHostedService<Worker>();
+int i;
+i = 0;
+while (i < weather.Length)
+{
+    if (weather[i] == 90)
+    {
+        Console.WriteLine("Hey! We found it!");
+        Console.WriteLine("Day #" + i + " is 90 degrees");
+        
+    }
 
-var host = builder.Build();
-host.Run();
+    i = i + 1;
+}
+
+
+
+struct Student
+{
+    string name;
+    string letterGrade;
+    double percentage;
+}
