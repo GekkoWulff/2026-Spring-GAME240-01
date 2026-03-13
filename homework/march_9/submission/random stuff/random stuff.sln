@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "random stuff", "random stuff\random stuff.csproj", "{6F0EB3E3-B901-4EF6-AEBC-5F09BCDFDECB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F0EB3E3-B901-4EF6-AEBC-5F09BCDFDECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0EB3E3-B901-4EF6-AEBC-5F09BCDFDECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0EB3E3-B901-4EF6-AEBC-5F09BCDFDECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0EB3E3-B901-4EF6-AEBC-5F09BCDFDECB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

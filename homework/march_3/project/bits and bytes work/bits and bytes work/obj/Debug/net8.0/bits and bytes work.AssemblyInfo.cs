@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bits and bytes work")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98199e9432e9d57596eaf2de7bdec19dbac698d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03778ebe4cf462b7f438b0c82f83dbb728209031")]
 [assembly: System.Reflection.AssemblyProductAttribute("bits and bytes work")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bits and bytes work")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

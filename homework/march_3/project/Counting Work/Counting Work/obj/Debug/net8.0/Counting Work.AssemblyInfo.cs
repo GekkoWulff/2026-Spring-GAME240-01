@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Counting Work")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98199e9432e9d57596eaf2de7bdec19dbac698d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03778ebe4cf462b7f438b0c82f83dbb728209031")]
 [assembly: System.Reflection.AssemblyProductAttribute("Counting Work")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Counting Work")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
