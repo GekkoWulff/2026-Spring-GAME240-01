@@ -26,7 +26,7 @@ int biggestSoFar;
 
 //compare element 0 to element 1
 if (numberLine[0] > numberLine[1])
-{
+{ 
     biggestSoFar = numberLine[0];
 }
 else 
