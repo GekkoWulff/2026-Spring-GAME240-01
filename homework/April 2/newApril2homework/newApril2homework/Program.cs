@@ -1,70 +1,71 @@
-Console.WriteLine("How can I help you today?");
-Console.ReadLine();
-Console.WriteLine("Of course!");
-
-string numberOne, numberTwo; 
-double a, b;
-string operation;
-
-string equation;
-
-//Parse converts text to int "10" -> 10
-
-while (true)
+int absolute1(int number)
 {
-    Console.WriteLine("Please enter an equation into the calculator. If you want the program to end, type ''Finished''.");
-    equation = Console.ReadLine();
-    string[] numbers = equation.Split('+', '-', '*', '/', '%');
-   
-    
-    
-    int index;
-    for (index = 0; index < numbers.Length; index++)
+    if (number > 0)
     {
-        Console.WriteLine(equation[index]);
+        
+    }
+    else
+    {
+        number = number * -1;
     }
 
-    /* numberOne = Console.ReadLine();
-    a = double.Parse(numberOne);
-    Console.WriteLine("Alright. Now, what is your second number?");
-    numberTwo = Console.ReadLine();
-    b = double.Parse(numberTwo);
-    Console.WriteLine("What operation do you want to use?");
-    operation = Console.ReadLine();
-    */
+    return number;
 
-    double result;
-    result = 0;
+    //implementation (write it out)
+
+
+    //calculate some number; return keyword to return answer
+    //return _____; 
 }
 
-/*  if (operation == "finished")
-  {
-      Console.WriteLine("Thanks for playing!");
-      break;
-  }
-  else if (operation == "+")
-  {
-      result = a + b;
-  }
-  else if (operation == "-")
-  {
-      result = a - b;
-  }
-  else if (operation == "*")
-  {
-      result = a * b;
-  }
-  else if (operation == "/")
-  {
-      result = a / b;
-  }
-  else if (operation == "%")
-  {
-      result = a % b;
-  }
+int absolute2(int number)
+{
+    Math.Abs(number);
 
-  Console.WriteLine(result);
-
-  Console.WriteLine("Thanks for playing!");
+    return number;
 }
-*/
+
+
+int absWrappedFunction(int number)
+{ 
+    return absolute2(number);
+ 
+}
+
+var number = 5;
+var number2 = number;
+var x = absolute1;
+
+bool isEven(int number)
+{
+    return number % 2 == 0; 
+}
+
+bool isOdd(int number)
+{
+    return number % 2 != 0; 
+}
+
+bool isPositive(int number)
+{
+    return number > 0; 
+}
+
+bool isNegative(int number)
+{
+    return number < 0; 
+}
+
+//putting functions to arrays; simplified code looks  
+int[] numbers = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+int i = 0;
+while (i < numbers.Length)
+{
+    bool trait = numbers[i] % 2 == 0;
+    Console.WriteLine(numbers[i] % 2 == 0);
+    // equivalent to Console.WriteLine(numbers[i] + " is " + isEven);
+    i++;
+}
+
+
+
