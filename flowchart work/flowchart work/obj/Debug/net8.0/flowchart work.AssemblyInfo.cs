@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("flowchart work")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3f1b2a9db4fe723fb9935e7b10554b708276c35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f55213e9ad905b2c72c4492383ed0a2b5a792236")]
 [assembly: System.Reflection.AssemblyProductAttribute("flowchart work")]
 [assembly: System.Reflection.AssemblyTitleAttribute("flowchart work")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
